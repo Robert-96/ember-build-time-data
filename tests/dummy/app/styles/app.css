@@ -62,3 +62,31 @@
   padding: 1rem 2rem;
   border-radius: 0.25rem;
 }
+
+/* Not found */
+
+#docs-not-found {
+  background-color: white;
+  text-align: center;
+
+  padding: 2rem 2rem;
+  margin: 4rem auto;
+
+  max-width: 40rem;
+
+  border-radius: 0.25rem;
+}
+
+#docs-not-found #not-found-svg {
+  max-width: 20rem;
+
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+#docs-not-found h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  margin-bottom: 0.5rem;
+}
