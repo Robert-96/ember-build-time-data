@@ -1,0 +1,64 @@
+:root {
+  --brand-primary: #8e44ad;
+}
+
+/* Logo */
+
+#logo {
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.doc-hero {
+  padding-top: 1rem;
+}
+
+/* Docs overview */
+
+#docs-overview {
+  background-color: white;
+
+  padding: 2rem 2rem;
+  margin: 1rem auto;
+  margin-bottom: 4rem;
+
+  max-width: 40rem;
+
+  border-radius: 0.25rem;
+}
+
+#docs-overview .section {
+  margin-bottom: 1.5rem;
+}
+
+#docs-overview .section:last-of-type {
+  margin-bottom: 0;
+}
+
+#docs-overview h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+
+  text-align: center;
+
+  margin-bottom: 1rem;
+}
+
+#docs-overview h3 {
+  font-size: 1rem;
+  font-weight: 600;
+
+  margin-bottom: 0.75rem;
+}
+
+#docs-overview p {
+  margin-bottom: 0.5rem;
+}
+
+#docs-overview .docs-code {
+  background: #282c34;
+  color: #abb2bf;
+
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;
+}
