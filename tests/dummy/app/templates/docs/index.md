@@ -23,4 +23,4 @@ There are no Ember addons that solve this problem, but there two other alternati
   * Maintain you own in-repo addon.
   * Inline it into the `index.html` using [`ember-cli-inline-content`](https://github.com/gpoitch/ember-cli-inline-content) and load it into the store from there.
 
-  Balint Erdi wrote a greate blog post about this: [Inlining store data in Ember.js](https://www.balinterdi.com/blog/inlining-store-data-in-ember-js/).
+  Balint Erdi wrote a great blog post about this: [Inlining store data in Ember.js](https://www.balinterdi.com/blog/inlining-store-data-in-ember-js/).
