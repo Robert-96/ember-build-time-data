@@ -3,8 +3,14 @@
 const EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 
 module.exports = function(defaults) {
+  let config = defaults.project.config(EmberAddon.env());
+
   let app = new EmberAddon(defaults, {
-    // Add options here
+    'ember-cli-favicon': {
+      faviconsConfig: {
+        path: config.rootURL,
+      }
+    }
   });
 
   /*
