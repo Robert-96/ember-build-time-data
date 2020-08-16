@@ -9,14 +9,6 @@ const { MergeTrees } = require('broccoli-merge-trees');
 module.exports = {
   name: require('./package').name,
 
-  afterInstall() {
-    const supportPath = path.join(this.app.project.root, 'support');
-
-    if (!fs.existsSync(supportPath)) {
-      fs.mkdirSync(supportPath);
-    }
-  },
-
   treeForApp() {
     const tree = this._super.treeForApp.apply(this, ...arguments);
     const supportPath = path.join(this.app.project.root, 'support');
