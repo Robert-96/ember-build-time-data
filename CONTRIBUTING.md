@@ -2,7 +2,7 @@
 
 ## Installation
 
-* `git clone <repository-url>`
+* `git clone https://github.com/Robert-96/ember-build-time-data.git`
 * `cd ember-build-time-data`
 * `npm install`
 
