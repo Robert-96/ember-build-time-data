@@ -10,7 +10,7 @@ module.exports = {
   },
 
   afterInstall() {
-    const supportPath = path.join(this.app.project.root, 'support');
+    const supportPath = path.join('.', 'support');
 
     if (!fs.existsSync(supportPath)) {
       fs.mkdirSync(supportPath);
