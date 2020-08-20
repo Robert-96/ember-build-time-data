@@ -16,7 +16,7 @@ Create a `data.json` file inside the `/support` folder:
 
 ## Import the JSON file
 
-In order you get the data in your components or route you only need to import it:
+In order you get the data in your components or routes you only need to import it:
 
 ```js
 import data from '../support/data';
