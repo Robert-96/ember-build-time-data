@@ -1,9 +1,15 @@
 # ember-build-time-data
 
-[![npm version](https://badge.fury.io/js/ember-build-time-data.svg)](https://badge.fury.io/js/ember-build-time-data)
+[![npm version](https://badge.fury.io/js/ember-build-time-data.svg)](https://www.npmjs.com/package/ember-build-time-data)
 [![Build Status](https://travis-ci.org/Robert-96/ember-build-time-data.svg?branch=master)](https://travis-ci.org/Robert-96/ember-build-time-data)
 
 An Ember addon to help you insert JSON data into your application at build time.
+
+## Installation
+
+```
+ember install ember-build-time-data
+```
 
 ## Compatibility
 
@@ -11,11 +17,9 @@ An Ember addon to help you insert JSON data into your application at build time.
 * Ember CLI v2.13 or above
 * Node.js v10 or above
 
-## Installation
+## Documentation
 
-```
-ember install ember-build-time-data
-```
+See the [documentation](https://robert-96.github.io/ember-build-time-data/).
 
 ## Usage
 
