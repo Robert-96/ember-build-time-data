@@ -1,5 +1,6 @@
 # ember-build-time-data
 
+[![npm version](https://badge.fury.io/js/ember-build-time-data.svg)](https://badge.fury.io/js/ember-build-time-data)
 [![Build Status](https://travis-ci.org/Robert-96/ember-build-time-data.svg?branch=master)](https://travis-ci.org/Robert-96/ember-build-time-data)
 
 An Ember addon to help you insert JSON data into your application at build time.
