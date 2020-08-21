@@ -3,7 +3,10 @@
   "version": "0.1.2",
   "description": "An Ember addon to help you insert JSON data into your application at build time.",
   "keywords": [
-    "ember-addon"
+    "ember",
+    "ember-addon",
+    "ember-cli",
+    "json"
   ],
   "repository": {
     "type": "git",
